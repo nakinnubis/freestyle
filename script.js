@@ -37,7 +37,7 @@ function init() {
         var objLoader = new THREE.OBJLoader();
         objLoader.setMaterials(materials);
         objLoader.setPath('assets/');
-        objLoader.load('shirt.obj', function (object) {
+        objLoader.load('shirt (light mesh).obj', function (object) {
             scene.add(object);
         });
     });
